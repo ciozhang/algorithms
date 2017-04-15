@@ -23,3 +23,6 @@ void F(int n){
 	for (int i = 0;i<n;i++)         //n次
 		for (int j=1;j<2013;j<<=1); //2^t=n => t=log n
 } O(nlog n)
+
+// 主定理 T(n) = 2T(n/2)+cn
+// => O(nlogn)
